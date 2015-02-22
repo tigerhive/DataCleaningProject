@@ -175,7 +175,6 @@ mean(testDataAll[testDataAll$Subject==tSub & testDataAll$Activity==aNum,vNum])
 tidyData[tidyData$Subject==tSub & tidyData$Activity==aText,vText]
 
 # Summarising the data
-names(tidyData)
 unique(tidyData$ActivityLabel)
 unique(tidyData$Subject)
 str(tidyData)
